@@ -39,7 +39,38 @@
             </div>
 
         </section>
-        
+        <section id="formulario">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="/">
+                    <input type="text" placeholder="Nombre" name="nombre" required />
+                    <hr />
+                    <input type="email" placeholder="Correo" name="email" required />
+                    <hr />
+                    <input type="number" id="celular" placeholder="Celular" name="celular" min="900000000"
+                        max="999999999" required />
+                    <hr />
+                    <label for="proyecto">Tu insignia</label>
+                    <select name="proyecto" id="proyecto" required>
+                        <option value="primaria">Heraldo</option>
+                        <option value="primaria">Arconte</option>
+                        <option value="primaria">Leyenda</option>
+                        <option value="primaria">Ancestro</option>
+                        <option value="inicial">Inmportal</option>
+                    </select>
+                    <hr />
+                    <textarea placeholder="Mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                    <hr />
+                    <hr />
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>&copy; Jofran Boost - 2022</p>
+            </div>
+        </footer>
 </body>
 
 </html>
