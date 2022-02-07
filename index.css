@@ -26,6 +26,7 @@ header .logo{
     padding: 15px 30px;
     font-weight: bold;
     font-size: 1.6em;
+    color: rgb(8, 29, 218);
 }
 header .container{
     display: flex;
@@ -44,6 +45,18 @@ header a{
     font-weight: bold;
     color: black;
 }
+header a:hover{
+    color: rgb(8, 29, 218);
+}
+.container h2{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.container h2:hover{
+    color: rgb(8, 29, 218);
+}
 #portada{
     display: flex;
     align-items: center;
@@ -52,6 +65,9 @@ header a{
     flex-direction: column;
     height: 95vh;
     background-image:url("media/screen-0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 #portada h1{
     color: white;
